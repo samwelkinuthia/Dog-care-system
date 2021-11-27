@@ -1,0 +1,65 @@
+{
+      "name": "German Shepherd",
+      "breed_group": "Herding Group",
+      "lifespan":"10 - 14 Years",
+      "apartment_life": 3,
+      "novice": 5,
+      "alone": 2,
+      "cold_weather_tolerance": 4,
+      "hot_weather_tolerance": 3,
+      "kid_friendly": 5,
+      "dog_friendly": 2,
+      "stranger_friendly": 4,
+      "protective": 5,
+      "playfulness": 5,
+      "shedding": 5,
+      "drooling": 1,
+      "weight_gain_potential": 2,
+      "ease_of_grooming": 5,
+      "trainability": 5,
+      "intelligence": 5,
+      "prey_drive": 2,
+      "wanderlust": 2,
+      "bark_level": 4,
+      "energy_level": 5,
+      "exercise_needs": 5,
+      "shedding_rate": "These dogs shed a lot.Brush them several times a week",
+      "prefers": "The German Shepherd isn't the breed for you if you're away from home frequently or for long periods of time. When left alone, they can become anxious or bored and are likely to express their worry in ways you don't like, such as barking, chewing, and digging",
+      "exercise":"German Shepherds are active and intelligent dogs. They must be kept busy learning, playing, and working. Daily exercise, both physical (such as jogging and Frisbee) and mental (such as training sessions), is a must",
+      "crate_training": "Crate training is not only a wonderful way to house train a puppy, it helps teach them to be calm and happy when separated from their owner. This is especially important for the German Shepherd, who sometimes suffers separation anxiety, or extreme anxiety when left alone.",
+      "state": "They've got a reputation for being a great watchdog—and they are—but the German Shepherd should never be chained or tethered just to stand guard. It leads to frustration and aggression. The German Shepherd is happiest living indoors with the family, but with access to a large, fenced yard, where they can burn off some of their natural energy.",
+      "susceptibilities":  [
+        {
+          "name": "Hip dysplasia",
+          "definition": "Hip dysplasia is a heritable condition in which the femur doesn't fit snugly into the pelvic socket of the hip joint. Hip dysplasia can exist with or without clinical signs. Some dogs exhibit pain and lameness on one or both rear legs. As the dog ages, arthritis can develop. Dogs with hip dysplasia should not be bred."
+        },
+        {
+          "name": "Elbow dysplasia",
+          "definition": "Canine elbow dysplasia (ED) is a condition involving multiple developmental abnormalities of the elbow joint. It is inherited and affects large breeds"
+        },
+        {
+          "name": "Gastric dilatation volvulus",
+          "definition": "(GDV) is a life-threatening disorder most commonly seen in large, deep-chested dogs, although any dog may be affected. In its early stage, the stomach fills with gas, causing a simple gastric dilatation or bloat"
+        },
+        {
+          "name": "Degenerative Myelopathy",
+          "definition": "a disease affecting the spinal cord, resulting in slowly progressive hind limb weakness and paralysis"
+        },
+        {
+          "name": "Exocrine Pancreatic Insufficiency",
+          "definition": "Pancreatic distress acquired as the result of pancreatic infection, inflammation, or injury"
+        }
+      ],
+      "recommended_tests": [
+        {
+          "name": "Hip evaluation",
+          "definition": "Test for hip strength"
+        },
+        {
+          "name": "Elbow evaluation",
+          "definition": "Test for elbow strength"
+        }
+    ],
+    "nutrition": "A high-quality dog food appropriate for the dog's age (puppy, adult, or senior) will have all the nutrients the breed needs. Table scraps can cause digestive upset, so only give them sparingly, if at all, especially avoiding cooked bones and foods with high fat content. Small pieces of biscuit or the dog's kibble can be used as treats for training. If you are feeding a high-quality food, vitamin and mineral supplements should not be necessary, although adding small quantities of yogurt, cooked vegetables, or eggs to the food can be beneficial. Learn about which human foods are safe for dogs, and which are not. Check with your vet if you have any concerns about your dog's weight or diet.",
+    "training":"Early socialization and puppy training classes are vital, and continuing obedience training will help ensure that the pup will grow to be an adaptable and well-mannered adult. The German Shepherd is a highly intelligent companion and an extraordinary worker. Consistency and positive, reward-based training will yield excellent results. He is extremely bonded to his people, so he is happiest when he lives with his family. He should be raised in the household and exposed to the family's activities. The German Shepherd Dog Club of America provides detailed training advice for owners on the club's website."
+  }
