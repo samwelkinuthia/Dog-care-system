@@ -1,6 +1,5 @@
-# MERN
+# DOG CARE SYSTEM
 
-Full mern app using
+Dog care system with sound recognition, feeding mechanism and supporting web application.
 
-* MongoDB
-* Twilio
+## PROJECT SUMMARY DIAGRAM
