@@ -10,9 +10,9 @@ app.use(require("./routes/record"));
 const dbo = require("./db/conn");
 const schedule = require("node-schedule");
 
-const accountSid = process.env.TWILIO_ACCOUNT_SID;
-const authToken = process.env.TWILIO_AUTH_TOKEN;
-const client = require('twilio')(accountSid, authToken);
+// const accountSid = process.env.TWILIO_ACCOUNT_SID;
+// const authToken = process.env.TWILIO_AUTH_TOKEN;
+// const client = require('twilio')(accountSid, authToken);
 
 app.listen(port, () => {
   // perform a database connection when server starts
@@ -113,8 +113,8 @@ function sendSms(message) {
   client.messages
       .create({
         body: message,
-        from: '+15707745109',
-        to: '+254715301424'
+        from: '',
+        to: ''
       })
       .then(message => console.log(message.sid));
 }
