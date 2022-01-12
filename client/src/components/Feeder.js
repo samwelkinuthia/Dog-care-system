@@ -54,7 +54,7 @@ export default class Feeder extends Component {
     minutes = minutes < 10 ? '0'+minutes : minutes;
     var strTime = hours + ':' + minutes + ' ' + ampm;
     console.log(strTime)
-    axios.get('http://192.168.43.187:5000/feed').then(response => this.setState({
+    axios.get('http://<Raspberry pi IP>:5000/feed').then(response => this.setState({
       feedback: response.data,
       isShowingFeed: true,
       time: strTime
@@ -94,7 +94,7 @@ export default class Feeder extends Component {
   }
 
   setSchedule = () => {
-    axios.post('http://192.168.43.187:5000/schedule', {time: this.state.date}).then (
+    axios.post('http://<Raspberry pi IP>:5000/schedule', {time: this.state.date}).then (
       response => {
         this.handleCloseSchedule();
         this.setState({
@@ -105,7 +105,7 @@ export default class Feeder extends Component {
     )
   }
   setRecurrent = () => {
-    axios.post('http://192.168.43.187:5000/recurrent', {minutes: this.state.min}).then (
+    axios.post('http://<Raspberry pi IP>:5000/recurrent', {minutes: this.state.min}).then (
         response => {
           this.handleCloseRecurrent();
           this.setState({
